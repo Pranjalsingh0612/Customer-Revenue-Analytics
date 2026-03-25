@@ -1,4 +1,4 @@
-create database if not exists WalmartSales;
+create database if not exists WSales;
 CREATE TABLE IF NOT EXISTS sales(
 	invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
     branch VARCHAR(5) NOT NULL,
